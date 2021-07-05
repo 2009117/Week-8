@@ -1,14 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-char on[1000];
-
-int i; 
-
-
-int main()
-{
-  printf("Insert any phrase:\n");
+void funcion(Funtion){
+  char on[1000];
+  int i; 
+printf("Insert any phrase:\n");
   fgets(on, sizeof(on), stdin);
   
   for(int i=0; i<strlen(on);i++) {
@@ -18,9 +14,13 @@ int main()
         on[i]='_'; //and the if is tru, is gonna change to "_"
   }
   printf("%s",on);
+}
+
+
+int main(){int Funtion;
+funcion(Funtion); 
   
   
   return 0;
- 
-
 }
+ 
